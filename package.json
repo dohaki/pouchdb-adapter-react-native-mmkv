@@ -1,0 +1,21 @@
+{
+  "name": "pouchdb-adapter-react-native-mmkv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dakingha69/pouchdb-adapter-react-native-mmkv.git",
+  "author": "Dong-Ha Kim <dongha.kim210@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && cp ./package.json ./build/dist/ && cp -r ./build/dist/* ./example/dist && Echo Build completed!"
+  },
+  "devDependencies": {
+    "@types/pouchdb": "^6.4.0",
+    "@types/react-native": "^0.64.2",
+    "react-native-typescript-transformer": "^1.2.13",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "pouchdb-adapter-asyncstorage": "^7.0.0-beta-1"
+  }
+}
