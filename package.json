@@ -6,7 +6,7 @@
   "author": "Dong-Ha Kim <dongha.kim210@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc && cp ./package.json ./build/dist/ && cp -r ./build/dist/* ./example/dist && Echo Build completed!"
+    "build": "tsc && cp ./package.json ./build/dist/ && mkdir -p ./example/dist &&  cp -r ./build/dist/* ./example/dist && Echo Build completed!"
   },
   "devDependencies": {
     "@types/pouchdb": "^6.4.0",
