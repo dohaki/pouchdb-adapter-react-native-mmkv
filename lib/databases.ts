@@ -33,7 +33,7 @@ export const get = (opts, mmkv) =>
     storage.multiGet(
       toMetaKeys(["_local_uuid", "_local_doc_count", "_local_last_update_seq"]),
       (error, meta = []) => {
-        const [uuidKey, uuidValue] = meta[0];
+        const [uuidKey, uuidValue] = meta[0] || [];
 
         if (error) {
           return reject(error);
