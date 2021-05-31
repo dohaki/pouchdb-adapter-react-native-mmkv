@@ -1,7 +1,7 @@
 import "pouchdb-adapter-asyncstorage/src/polyfill";
 
 import allDocs from "pouchdb-adapter-asyncstorage/src/all_docs";
-import bulkDocs from "pouchdb-adapter-asyncstorage/src/bulk_docs";
+import bulkDocs from "./bulk_docs";
 import changes from "pouchdb-adapter-asyncstorage/src/changes";
 import destroy from "pouchdb-adapter-asyncstorage/src/destroy";
 import doCompaction from "pouchdb-adapter-asyncstorage/src/do_compaction";
